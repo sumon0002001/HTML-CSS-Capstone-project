@@ -15,5 +15,33 @@
     background-color: antiquewhite;
 }
 
+.nav-2 {
+  
+    color: #fff
+}
+
+.event-des {
+    background: rgb(243, 243, 243);
+    font-size: small;
+    border: 2px solid;
+    border-color: #fff;
+}
+
+.title {
+    background-color:black;
+    text-align: center;
+}
+
+.title h3{
+    text-align: center;
+}
+.feature {
+    text-align: center;
+}
+
+.img1 {
+    width: 60px;
+    height: 60px;
+}
 
 
