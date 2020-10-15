@@ -83,26 +83,23 @@ a {
 }
 
 .event-des {
-    background-color: antiquewhite;
+    background-color: var(--others);
+    border: 2px solid white;
+
     
 }
-
-.nav-2 {
-  
-    color: #fff
+.date {
+    font-family: 'COCOGOOSE',sans-serif;
+    font-size: 2rem;
 }
-
-.event-des {
-    background: rgb(243, 243, 243);
-    font-size: small;
-    border: 2px solid;
-    border-color: #fff;
-}
-
-.title {
-    background-color:black;
+.main-program {
     text-align: center;
+    background-image: url("../images/main_bg.jpeg");
 }
+
+
+
+
 
 .title h3{
     text-align: center;
