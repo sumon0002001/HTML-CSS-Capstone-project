@@ -123,21 +123,69 @@ a {
     color: var(--textColor);
 }
 
+.icon {
+    width: 2rem;
+    height: 2rem;
+    padding-top: 12px;
+}
+
+.tkt {
+    color: #fff;
+}
+
+.tkt:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
 .title h3{
     text-align: center;
 }
+
+.sp-bg {
+    background-image: url('../images/blank.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 5rem 5rem;
+}
+
 .feature {
     text-align: center;
 }
 
-.img1 {
-    width: 60px;
-    height: 60px;
+.bands-hr {
+    width: 10%;
 }
 
 .heading {
     background-image: url("../images/main-bg.jpg");
     background-size: cover;
+}
+
+.partner {
+    background-color: var(--background);
+}
+
+.partners {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: end;
+    color: var(--others);
+    flex-wrap: wrap;
+}
+.partner-list {
+    width: 23%;
+    margin: 0.08rem auto;
+   
+    align-content: flex-end;
+}
+
+.footer-content {
+    display: flex;
+    
+    
 }
 
 
