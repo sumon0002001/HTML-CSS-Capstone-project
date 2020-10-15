@@ -67,6 +67,21 @@ a {
 
 }
 
+.title-1 {
+  color: var(--textColor);
+}
+
+.title-main {
+    font-family: 'COCOGOOSE';
+    font-weight: bolder;
+    font-size: 6rem;
+    color: var(--textColor);
+    line-height: 1;
+    background: linear-gradient(45deg, rgba(255,0,1,1) 0%, rgba(40,6,8,1) 33%, rgba(233,45,54,1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .event-des {
     background-color: antiquewhite;
     
