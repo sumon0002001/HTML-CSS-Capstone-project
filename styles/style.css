@@ -1,0 +1,97 @@
+:root {
+    --background: #272a31;
+    --textColor: #ec5242;
+    --others: #d3d3d3;
+  }
+
+@font-face {
+      font-family: 'COCOGOOSE';
+      src: 
+      url("./assets/fonts/cocogoose_pro_semilight-trail.ttf"),
+      url("./assets/fonts/cocogoose_pro_trail.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+* {
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+
+body {
+   font-family: 'Lato', sans-serif ;
+}
+
+a {
+ text-decoration: none;
+}
+
+.nav-1 {
+   
+    background-color: var(--background);
+    font-size: 14px;
+}
+
+.nav-1 ul {
+    margin: 0;
+}
+
+.nav-1 ul li {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+}
+
+.nav-item-a {
+    color: var(--others);
+
+
+}
+.nav-item-a:hover {
+    color: wheat;
+}
+
+.event-des {
+    background-color: antiquewhite;
+    
+}
+
+.nav-2 {
+  
+    color: #fff
+}
+
+.event-des {
+    background: rgb(243, 243, 243);
+    font-size: small;
+    border: 2px solid;
+    border-color: #fff;
+}
+
+.title {
+    background-color:black;
+    text-align: center;
+}
+
+.title h3{
+    text-align: center;
+}
+.feature {
+    text-align: center;
+}
+
+.img1 {
+    width: 60px;
+    height: 60px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav-1 {
+      display: none;
+    }
+    .ph-display {
+        display: none;
+    }
+}
