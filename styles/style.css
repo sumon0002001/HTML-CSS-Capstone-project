@@ -189,14 +189,7 @@ a {
 }
 
 
-@media only screen and (max-width: 768px) {
-    .nav-1 {
-      display: none;
-    }
-    .ph-display {
-        display: none;
-    }
-}
+
 
 @media only screen and (max-width: 1024px) {
    
@@ -207,6 +200,13 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    .nav-1 {
+        display: none;
+    }
+      .ph-display {
+          display: none;
+    }
+
     .heading {
         padding-top: 2rem;
     }
