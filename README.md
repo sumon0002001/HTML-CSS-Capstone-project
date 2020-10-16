@@ -7,7 +7,8 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 
 
-![screenshot]
+![screenshot](./images/screenshot_desktop.png)
+             (./images/screenshot_phone.png)
 
 
 ## Built With
@@ -18,7 +19,7 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://rawcdn.githack.com/sumon0002001/HTML-CSS-Capstone-project/9d1f0cddabaa2334a225ea82067fc1d6b436bb03/index.html)
 
 
 ## Getting Started
