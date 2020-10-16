@@ -5,14 +5,14 @@
 }
 
 @font-face {
-  font-family:'COCOGOOSE';
+  font-family: 'COCOGOOSE';
   src: url("../assets/fonts/cocogoose_pro_semilight-trail.ttf"), url("../assets/fonts/cocogoose_pro_trail.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -58,7 +58,6 @@ a {
 .ham-menu {
   font-size: 40px;
   color: var(--background);
-
 }
 
 .title-1 {
@@ -66,12 +65,12 @@ a {
 }
 
 .title-main {
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: bolder;
   font-size: 6rem;
   color: var(--textColor);
   line-height: 1;
-  background: linear-gradient(45deg, rgba(255,0,1,1) 0%, rgba(40,6,8,1) 33%, rgba(233,18,23,1) 60%);
+  background: linear-gradient(45deg, rgba(255, 0, 1, 1) 0%, rgba(40, 6, 8, 1) 33%, rgba(233, 18, 23, 1) 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -81,9 +80,8 @@ a {
   border: 2px solid white;
 }
 
-
 .date {
-  font-family: 'COCOGOOSE',sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 2rem;
 }
 
@@ -92,6 +90,7 @@ a {
   background-image: url("../images/main_bg.jpeg");
   background-size: cover;
 }
+
 .main-program-line {
   border: 1px solid var(--textColor);
   width: 2rem;
@@ -132,7 +131,7 @@ a {
   text-decoration: none;
 }
 
-.title h3{
+.title h3 {
   text-align: center;
 }
 
@@ -184,14 +183,15 @@ a {
   .nav-1 {
     display: none;
   }
+
   .ph-display {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-.lead {
-  min-width: 75%;
+  .lead {
+    min-width: 75%;
   }
 }
 
@@ -235,7 +235,6 @@ a {
     width: 100%;
     margin: 6px auto;
     padding: 1rem;
-        
   }
 
   .program-title {
