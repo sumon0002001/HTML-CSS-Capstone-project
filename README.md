@@ -8,7 +8,7 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 
 ![screenshot](./images/screenshot_desktop.png)
-             (./images/screenshot_phone.png)
+            
 
 
 ## Built With
