@@ -49,6 +49,7 @@ a {
 
 .nav-2-container {
   margin-top: 0;
+  background: #fff !important;
 }
 
 .nav-item-a-2 {
@@ -87,7 +88,7 @@ a {
 
 .main-program {
   text-align: center;
-  background-image: url("../images/main_bg.jpeg");
+  background-image: url("../images/Diamond-Sunset.svg");
   background-size: cover;
 }
 
@@ -151,7 +152,7 @@ a {
 }
 
 .heading {
-  background-image: url("../images/main-bg.jpg");
+  background-image: url("../images/Pattern-Randomized.svg");
   background-size: cover;
 }
 
@@ -192,6 +193,11 @@ a {
 
   .ph-display {
     display: none;
+  }
+
+  .nav-2-container {
+    background: url('../images/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
   }
 
   .heading {
