@@ -60,32 +60,44 @@ a {
   color: var(--background);
 }
 
-.partner {
-  background-color: var(--background);
+.tkt-main {
+  background-color: rgb(247, 247, 247);
 }
 
-.partners {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-end;
-  align-items: end;
-  color: var(--others);
-  flex-wrap: wrap;
-}
-
-.partner-list {
-  width: 23%;
-  margin: 0.08rem auto;
-  align-content: flex-end;
+.main-program-line {
+  border: 1px solid var(--textColor);
+  width: 2rem;
+  margin: 0 auto;
 }
 
 .tickets {
-  background-color: #ec5242;
+  width: 70%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 
-.tkt-prise {
-  background-color: lightgrey;
+.diamond {
+  position: relative;
+  width: 30px;
+  top: -15px;
+
+}
+
+.table-header {
+  border-radius: 25px; 
+  margin: auto;
+  padding: 0 1.2rem;
+  max-width: max-content;
+}
+
+.stripe-back {
+  background-image: linear-gradient(45deg, #ec5242 12.5%, #fff 12.5%, #fff 25%, #3d6f8e 25%, #3d6f8e 37.5%, #fff 37.5%, #fff 5%, #ec5242 5%, #ec5242 62.5%, #fff 62.5%, #fff 75%, #3d6f8e 75%, #3d6f8e 87.5%, #fff 87.5%, #fff 100%);
+  background-size: 40px 40px;
+  overflow-x: auto;
+}
+
+.submit-btn {
+  background-color: #ec5242;
 }
 
 .footer-content {
@@ -101,8 +113,12 @@ a {
     display: none;
   }
 
-  .partner-list {
-    width: 45%;
+  .tkt-main-title {
+    font-size: 26px;
+  } 
+
+  .tickets {
+    width: 100%;
   }
 
   .tkt-title {
