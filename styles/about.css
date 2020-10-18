@@ -60,7 +60,7 @@ a {
   color: var(--background);
 }
 
-.title-1 {
+.main-title {
   color: var(--textColor);
 }
 
@@ -200,8 +200,13 @@ a {
     padding-top: 2rem;
   }
 
-  .title-1 {
+  .main-title {
     font-size: x-large;
+  }
+  
+  .nav-2-container {
+    background: url('../images/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
   }
 
   .title-main {
