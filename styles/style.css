@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'COCOGOOSE';
-  src: url("../assets/fonts/cocogoose_pro-trial.ttf"), url("../assets/fonts/cocogoose_pro_semilight-trial.ttf");
+  src: url("../assets/fonts/Cocogoose_trial.woff"), url("../assets/fonts/Cocogoose_trial.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -248,7 +248,7 @@ a {
   }
 
   .program-detail-par {
-    font-size: medium;
+    font-size: 12px;
   }
 
   .partner-list {
