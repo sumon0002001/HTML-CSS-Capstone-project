@@ -126,6 +126,7 @@ a {
 
 .tkt {
   color: #fff;
+  font-size: 12px;
 }
 
 .tkt:hover {
@@ -175,6 +176,10 @@ a {
   width: 23%;
   margin: 0.08rem auto;
   align-content: flex-end;
+}
+
+.partner-list-1 {
+  margin-left: 6px;
 }
 
 .footer-content {
