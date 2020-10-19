@@ -7,10 +7,9 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 
 
-![screenshot](./images/screenshot_desk.png)
-![screenshot](./images/screenshot_mobile.png)
+![screenshot](./images/screen_desktop.png)
+![screenshot](./images/screen_phone.png)
             
-
 
 ## Built With
 
