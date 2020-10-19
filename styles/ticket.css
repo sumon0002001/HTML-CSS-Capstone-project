@@ -70,27 +70,40 @@ a {
   margin: 0 auto;
 }
 
-.tickets {
-  width: 70%;
-  margin-bottom: 2.5rem;
-  margin-top: 2.5rem;
+.form-steps {
+  border: 1px solid grey;
+  border-radius: 500px;
+  padding: 1rem 3rem;
+  margin: 3rem 0;
 }
 
-.diamond {
-  position: relative;
-  width: 20px;
-  top: -15px;
+.fs-40 {
+  font-size: 40px;
 }
 
-.table-header {
-  border-radius: 25px;
-  margin: auto;
-  padding: 0 1.2rem;
-  max-width: max-content;
+#mobile-form p {
+  font-weight: bold;
 }
 
-.submit-btn {
+#desktop-form p {
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+#desktop-form label {
+  font-size: 20px;
+}
+
+.orng-btn {
   background-color: #ec5242;
+  padding: 1rem;
+  border: none;
+  font-size: 18px;
+}
+
+#mobile-form {
+  display: none;
 }
 
 .footer-content {
@@ -103,6 +116,10 @@ a {
   }
 
   .ph-display {
+    display: none;
+  }
+
+  #desktop-form {
     display: none;
   }
 
@@ -123,13 +140,9 @@ a {
     width: 100%;
   }
 
-  .stripe-back {
-    display: none;
-  }
-
   #mobile-form {
     display: block;
-    overflow: visible;
+    overflow: auto;
   }
 
   footer {
