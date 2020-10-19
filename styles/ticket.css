@@ -1,0 +1,157 @@
+:root {
+  --background: #272a31;
+  --textColor: #ec5242;
+  --others: #d3d3d3;
+}
+
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url("../assets/fonts/cocogoose_pro_semilight-trail.ttf"), url("../assets/fonts/cocogoose_pro_trail.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-1 {
+  background-color: var(--background);
+  font-size: 14px;
+}
+
+.nav-1 ul {
+  margin: 0;
+}
+
+.nav-1 ul li {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+}
+
+.nav-item-a {
+  color: var(--others);
+}
+
+.nav-item-a:hover {
+  color: wheat;
+}
+
+.nav-2-container {
+  margin-top: 0;
+}
+
+.nav-item-a-2 {
+  font-size: 14px;
+}
+
+.ham-menu {
+  font-size: 40px;
+  color: var(--background);
+}
+
+.tkt-main {
+  background-color: rgb(247, 247, 247);
+}
+
+.main-program-line {
+  border: 1px solid var(--textColor);
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.form-steps {
+  border: 1px solid grey;
+  border-radius: 500px;
+  padding: 1rem 3rem;
+  margin: 3rem 0;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+#mobile-form p {
+  font-weight: bold;
+}
+
+#desktop-form p {
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+#desktop-form label {
+  font-size: 20px;
+}
+
+.orng-btn {
+  background-color: #ec5242;
+  padding: 1rem;
+  border: none;
+  font-size: 18px;
+}
+
+#mobile-form {
+  display: none;
+}
+
+.footer-content {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-1 {
+    display: none;
+  }
+
+  .ph-display {
+    display: none;
+  }
+
+  #desktop-form {
+    display: none;
+  }
+
+  .nav-2-container {
+    background: url('../images/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
+  }
+
+  .tkt-main-title {
+    font-size: 26px;
+  }
+
+  .tkt-main {
+    width: 100% !important;
+  }
+
+  .tickets {
+    width: 100%;
+  }
+
+  #mobile-form {
+    display: block;
+    overflow: auto;
+  }
+
+  footer {
+    background-color: #d3d3d3;
+    color: #272a31;
+  }
+
+  .footer-img {
+    width: 300px;
+    height: 50px;
+  }
+}
