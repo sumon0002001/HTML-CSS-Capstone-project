@@ -180,6 +180,10 @@ a {
   background-color: var(--background);
 }
 
+.partner h4 {
+  color: #d3d3d3;
+}
+
 .partners {
   text-align: center;
   display: flex;
