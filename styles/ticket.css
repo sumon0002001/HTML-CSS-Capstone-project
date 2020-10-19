@@ -123,11 +123,11 @@ a {
     width: 100%;
   }
 
-  .stripe-back  {
-   display: none;
+  .stripe-back {
+    display: none;
   }
 
   #mobile-form {
-  display: block;
+    display: block;
   }
 }
