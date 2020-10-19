@@ -91,14 +91,16 @@
       <h1 class="pt-3 px-4 font-weight-bold tkt-main-title ">Select Tickets</h1>
       <hr class="main-program-line">
       <div class="container tickets">
-        <div class="border table-header">
+        <div class="border table-header pl-3 ">
           <span class="mr-3 text-danger font-weight-bold">
-            <img src="../images/diamond-sm.png" alt="bullet" class="mr-2">
+            <img src="../images/diamond-sm.png" alt="bullet" >
             STEP 1
           </span>
+          
+
           <span>Please select the day/days you would like to attend</span>
         </div>
-        <div class="p-2 stripe-back mt-5 mb-0">
+        <div class="p-2 stripe-back mt-5 mb-0 d-sm-none d-md-block">
           <table class="table table-bordered bg-white m-0 p-0">
             <thead>
               <tr>
@@ -111,8 +113,8 @@
                 <th scope="col">Date</th>
                 <th scope="col">09.July(Fri)</th>
                 <th scope="col">10.July(Sat)</th>
-                <th scope="col">09.-10.Oct (Fri-Sat)</th>
-                <th scope="col">09.-10.Oct (Fri-Sat)</th>
+                <th scope="col">09.-10.July (Fri-Sat)</th>
+                <th scope="col">09.-10.July (Fri-Sat)</th>
               </tr>
             </thead>
             <tbody>
@@ -157,8 +159,90 @@
             </tbody>
           </table>
         </div>
+        <div>
+        <div class="container">
+        <form id="mobile-form" class="d-md-none pb-5 pt-5" action="/">
+
+          <div class="p-3">
+
+            <div class="row">
+              <div class="border col-3 d-flex align-items-center justify-content-center ">
+                <p>1-Day Ticket</p>
+              </div>
+              <div class="border col-6 d-flex align-items-center justify-content-center  ">
+                <p>2-Day Ticket</p>
+              </div>
+              <div class="border col-3 d-flex align-items-center justify-content-center">
+                <p>Affiliate</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="border col-3">
+                <p>09.July</p>
+              </div>
+              <div class="border col-3">
+                <p>10.July</p>
+              </div>
+              <div class="border col-3">
+                <p>09-10. July</p>
+              </div>
+              <div class="border col-3">
+                <p>09-10. July</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="border col-12">
+                <p>Normal</p>
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="dayOneMb"><b>€300</b></label>
+                <input type="radio" name="ticket" id="dayOneMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="dayTwoMb"><b>€300</b></label>
+                <input type="radio" name="ticket" id="dayTwoMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="bothDaysMb"><b>€500</b></label>
+                <input type="radio" name="ticket" id="bothDaysMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="affiliatesMb"><b>€0.00</b></label>
+                <input type="radio" name="ticket" id="affiliatesMb">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="border col-12">
+                <p>Students</p>
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="dayOneVipMb"><b>€200</b></label>
+                <input type="radio" name="ticket" id="dayOneVipMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="dayTwoVipMb"><b>€200</b></label>
+                <input type="radio" name="ticket" id="dayTwoVipMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="bothDaysVipMb"><b>€300</b></label>
+                <input type="radio" name="ticket" id="bothDaysVipMb">
+              </div>
+              <div class="border col-3">
+                <label class="d-block c-orange" for="affiliatesVipMb"><b>€0</b></label>
+                <input type="radio" name="ticket" id="affiliatesVipMb">
+              </div>
+            </div>
+
+          </div>
+        </form>
+        </div>
+      </div>
 
       </div>
+     
     </section>
 
     <section class="featured-speakers bg-white text-center">
@@ -217,6 +301,7 @@
       </div>
       <button type="button" class="btn mb-5 rounded-0 submit-btn">Submit Selection</button>
     </section>
+
   </main>
          <!--Footer-->
 
