@@ -4,8 +4,8 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 
 
-![screenshot](./images/screen_desktop.png)
-![screenshot](./images/screen_phone.png)
+![screenshot](./images/screenshot.png)
+
             
 
 ## Built With
@@ -16,7 +16,7 @@ It is an original website. The design was provided by  Cindy Shin in Behance.It 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/sumon0002001/HTML-CSS-Capstone-project/4c25a6295a51ca4c9da145dc8ef60369d4b0cedc/index.html)
+[Live Demo Link](https://rawcdn.githack.com/sumon0002001/HTML-CSS-Capstone-project/bfcc15255c187f987dfaf9ab8004afe8cbae75c1/index.html)
 
 
 ## Getting Started
