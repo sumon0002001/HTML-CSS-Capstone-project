@@ -1,8 +1,5 @@
 # HTML-CSS-Capstone-project
 
-
-# Music Fetival Website Capstone
-
 It is an original website. The design was provided by  Cindy Shin in Behance.It is Made with HTML, CSS and Bootstrap . The website uses the Bootstrap grid system as well as media queries to achieve responsiveness. Additionally, there is the use of industry-standard tools (flexbox) to palce elements in this page.
 
 
