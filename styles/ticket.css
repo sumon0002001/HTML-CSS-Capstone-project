@@ -129,6 +129,7 @@ a {
 
   #mobile-form {
     display: block;
+    overflow: visible;
   }
 
   footer {
